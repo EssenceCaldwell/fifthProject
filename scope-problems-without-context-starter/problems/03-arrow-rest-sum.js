@@ -8,10 +8,24 @@ Examples:
 arrowRestSum(3,5,6); // => 14
 arrowRestSum(1, 2, 3, 4, 5, 6, 7, 8, 9); // => 14
 arrowRestSum(0); // => 0
+
+Use const
+Name function arrowRestSum
+Use rest to gather all arguments
+Use reduce to return sum
 ***********************************************************************/
 
 // your code here!
+const arrowRestSum = (...num) => {
+  let sum = num.reduce(acc, ele = acc + ele
+  )
+return sum
+}
 
+
+arrowRestSum(3,5,6); // => 14
+arrowRestSum(1, 2, 3, 4, 5, 6, 7, 8, 9); // => 14
+arrowRestSum(0); // => 0
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
